@@ -1,56 +1,72 @@
-
-body{
-    background-image: url(img/book.jpg);
+body {
+    background-image: url('img/book.jpg');
     background-size: cover;
-    background-attachment: scroll;
-    align-items: center;
-}
-h1{
-    text-align: center;
-    background-color: rgb(187, 65, 65,0.5);
-    border-radius: 25px;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
     color: white;
-    height: 50px;
-    padding-top: 10px;
+    margin: 0;
+    padding: 20px;
 }
-div.nav{
-    background-color: rgb(187, 65, 65,0.5);
+
+h1 {
+    text-align: center;
+    background-color: rgba(187, 65, 65, 0.7);
     border-radius: 25px;
-    height: 30px;
-    padding-top: 15px;
-    padding-left: 30px;
-   
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 800px;
 }
-a{
+
+.nav {
+    text-align: center;
+    background-color: rgba(187, 65, 65, 0.7);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+a {
     text-decoration: none;
     color: white;
-    margin-right: 10px;
-    padding: 5px; 
+    padding: 10px 15px;
+    transition: 0.3s;
 }
-a:hover{
+
+a:hover {
     color: black;
-    font-size: 20px;
     background-color: aliceblue;
+    border-radius: 5px;
 }
-div.book{
+
+.book-container {
     text-align: center;
-    color: white;
-    background-color: rgb(187, 65, 65,0.5) ;
+    background-color: rgba(187, 65, 65, 0.7);
     width: 300px;
-    height: 300px;
-    margin-top: 20px;
-    padding-top: 15px;
-    margin-left: 500px;
+    margin: 20px auto;
+    padding: 20px;
     border-radius: 40px;
 }
-div.book.a:hover{
-    color: blue;
+
+ol {
+    list-style-position: inside;
+    padding: 0;
 }
-div.book.a:hover{
-    font-size: 20px;
+
+li {
+    margin-bottom: 20px;
 }
-#home{
-    border: 3px;
+
+/* Specific styling for the active nav link */
+#home {
     background-color: aliceblue;
     color: red;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
 }
