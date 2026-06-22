@@ -1,4 +1,5 @@
-<img width="1584" height="672" alt="Gemini_Generated_Image_vrr81ovrr81ovrr8" src="https://github.com/user-attachments/assets/5dc2f851-a3ba-477c-9942-e3ce8f6ef20b" />
+<img width="1456" height="720" alt="library management system" src="https://github.com/user-attachments/assets/9ec588dd-aa43-4614-9093-b7ccccaad066" />
+
 
 # 📚 Library Management System
 
